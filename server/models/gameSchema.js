@@ -23,9 +23,11 @@ const gameSchema = new mongoose.Schema({
   project_title: { type: String },
   project_desc: { type: String },
   project_weeks: { type: Number, min: 0, max: 6 },
+  project_resolve: { type: String },
   pp_title: { type: String },
   pp_desc: { type: String },
   pp_weeks: { type: Number, min: 0, max: 6 },
+  pp_resolve: { type: String },
   p_discussion: { type: String },
   p_discovery: { type: String },
   end: { type: String }
